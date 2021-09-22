@@ -27,3 +27,12 @@ padding-right: 1rem;
 background-color: var(--light-green);
     padding-top: 2rem;
     padding-bottom: 1rem;}    
+    #answer{
+        font: large;
+        padding-top: 2rem;
+        font-weight: bold;
+      }
+      #output{ 
+          padding-top: 2rem;
+          font: large;
+        font-weight: bold;}
