@@ -11,10 +11,10 @@ return sumOfSquares
 function hypoteneousCalculator(){
     
    let sum= squaresAndSum(Number(lengthInput[0].value),Number(lengthInput[1].value));
-    //console.log(sum);
+    
     const squareRootSum=Math.sqrt(sum);
- //   console.log(squareRootSum);
-outputEl.innerText="length of hypoteneus is "+squareRootSum;
+ const squareRootOfSum=squareRootSum.toFixed(2);
+outputEl.innerText="length of hypoteneus is "+squareRootOfSum;
 }
 
 checkButton.addEventListener("click",hypoteneousCalculator);
