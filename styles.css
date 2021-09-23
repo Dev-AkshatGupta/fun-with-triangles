@@ -39,3 +39,27 @@ background-color: var(--light-green);
         .active{
             font-weight: bolder;
         }
+        .footer-list {
+            list-style: none;
+            
+        }
+        
+        .list-item {
+            text-align: center;
+            display: inline;
+        }
+        
+        .footer {
+            text-align: center;
+        
+        }
+        
+        #output-box {
+            margin-top: 2rem;
+        }
+        
+       .footer .link {
+            text-decoration: none;
+            padding: .5rem 1rem;
+            color: var(--primary-color)
+        }
