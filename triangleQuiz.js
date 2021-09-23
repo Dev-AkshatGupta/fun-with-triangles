@@ -1,8 +1,7 @@
 const formQuiz=document.querySelector(".quiz-form");
 const submitButton=document.querySelector("#submit-Button");
 const outputAnswer=document.querySelector("#output");
-const answer=["90°","right angled"];
-
+const answer=["90°","right angled","180","3","3"]; 
 
 function checkAnswer(){
 let i=0;
